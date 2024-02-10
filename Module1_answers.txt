@@ -48,3 +48,4 @@ select * from (SELECT a.tip_amount, (select c."Zone" from zones c where c."Locat
 |------------+-------------+---------|
 | 62.31      | JFK Airport | 1       |
 +------------+-------------+---------+
+e:\zoomcamp2024\Homework_Module2.txt
