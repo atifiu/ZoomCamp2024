@@ -13,7 +13,7 @@
 
 ---
 
-<p align="center"> End to End Data Engineering course having following modules covered as part of this:</p>
+<p align="center"> End to End Data Engineering course having various modules/topics/workshops and final project </p>
 <br> 
 
 ### Modules
@@ -31,13 +31,6 @@
 ## 📝 Table of Contents
 
 - [Module 1 Homework](#module1)
-- [Deployment](#deployment)
-- [Usage](#usage)
-- [Built Using](#built_using)
-- [TODO](../TODO.md)
-- [Contributing](../CONTRIBUTING.md)
-- [Authors](#authors)
-- [Acknowledgments](#acknowledgement)
 
 
 
