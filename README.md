@@ -13,8 +13,10 @@
 
 ---
 
-<p align="center"> End to End Data Engineering course having following modules covered as part of this:
+<p align="center"> End to End Data Engineering course having following modules covered as part of this:</p>
 <br> 
+
+### Modules
 - [x] Module 1: Containerization and Infrastructure as Code <br>
 - [x] Module 2: Workflow Orchestration <br>
 - [ ] Workshop 1: Data Ingestion <br>
@@ -23,7 +25,6 @@
 - [ ] Module 5: Batch processing <br>
 - [ ] Module 6: Streaming <br>
 - [ ] Workshop 2: Stream Processing with SQL <br>
-</p>
 
 
 
