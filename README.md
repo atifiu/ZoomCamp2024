@@ -15,15 +15,17 @@
 
 <p align="center"> End to End Data Engineering course having following modules covered as part of this:
 <br> 
-- [ ] : Containerization and Infrastructure as Code <br>
-- [x] : Module 2: Workflow Orchestration <br>
-Workshop 1: Data Ingestion <br>
-Module 3: Data Warehouse <br>
-Module 4: Analytics Engineering <br>
-Module 5: Batch processing <br>
-Module 6: Streaming <br>
-Workshop 2: Stream Processing with SQL <br>
+- [x] Module 1: Containerization and Infrastructure as Code <br>
+- [x] Module 2: Workflow Orchestration <br>
+- [ ] Workshop 1: Data Ingestion <br>
+- [x] Module 3: Data Warehouse <br>
+- [ ] Module 4: Analytics Engineering <br>
+- [ ] Module 5: Batch processing <br>
+- [ ] Module 6: Streaming <br>
+- [ ] Workshop 2: Stream Processing with SQL <br>
 </p>
+
+
 
 ## 📝 Table of Contents
 
@@ -36,6 +38,8 @@ Workshop 2: Stream Processing with SQL <br>
 - [Contributing](../CONTRIBUTING.md)
 - [Authors](#authors)
 - [Acknowledgments](#acknowledgement)
+
+
 
 ## 🧐 About <a name = "about"></a>
 
