@@ -1,7 +1,8 @@
 <p align="center">
   <a href="" rel="noopener">
- <img width=200px height=200px src="https://i.imgur.com/6wj0hh6.jpg" alt="Project logo"></a>
+ <img width=400px height=200px src="./zoomcamp_2024.png" alt="Project logo"></a>
 </p>
+
 
 <h3 align="center">Data Engineering Zoomcamp 2024</h3>
 
@@ -30,15 +31,28 @@
 
 ## 📝 Table of Contents
 
-- [Module 1 Homework](#module1)
+- [Module 1: Containerization and Infrastructure as Code](#module1)
 
 
 
-##  Module 1 Homework <a name = "module1"></a>
+##  Module 1: Containerization and Infrastructure as Code  <a name = "module1"></a>
+
+### Introduction
+
+In this module we will make use of docker to create a simple data pipeline using PostgreSQL DB.
+ Following tools/concepts will be introduced as part of this module:
+ - Docker
+ - Docker Compose
+ - Postgres
+ - PGAdmin
+ - Terraform
+ - SQL
+ - GCP
+
+ > Note: Throughtout this course I will be using GitHub CodeSpaces which is a development environment hosted in cloud provided by GitHub and can be integrated with various IDEs(I am using VSCode). To setup GitHub CodeSpaces please refer to this [Video](https://www.youtube.com/watch?v=XOSUt8Ih3zA&list=PL3MmuxUbc_hJed7dXYoJw8DoCuVHhGEQb&index=16)
 
 
-
-### 🏁 Docker & SQL 
+### 🏁 Docker, Terraform and  SQL 
 
 In this homework we'll prepare the environment and practice with Docker and SQL
 
