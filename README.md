@@ -51,6 +51,32 @@ In this module we will make use of docker to create a simple data pipeline using
 
  > Note: Throughtout this course I will be using GitHub CodeSpaces which is a development environment hosted in cloud provided by GitHub and can be integrated with various IDEs(I am using VSCode). To setup GitHub CodeSpaces please refer to this [Video](https://www.youtube.com/watch?v=XOSUt8Ih3zA&list=PL3MmuxUbc_hJed7dXYoJw8DoCuVHhGEQb&index=16)
 
+### Docker
+Docker provides a container like platform where you can put all your code, libraries and related dependencies which can be imported to any environment and not depended on OS.
+
+#### Docker Commands
+- **docker run**: It will run the command in new container and if the image is not present it will pull the image.It also have various parameters such as `it` which provides iteractive terminal to execute the code in docker. [Details here](https://docs.docker.com/engine/reference/commandline/container_run/)
+
+
+- **docker ps**: It show currently running containers while -a option also shows both running as well as stopped containers. [Details here](https://docs.docker.com/engine/reference/commandline/container_ls/)
+
+### Steps to Setup Docker container for running Data Pipeline
+
+1. Define a `Dockerfile` with all the required dependencies install inside it. Import required Image with the tag. [Dockerfile](./Dockerfile)
+
+2. Build a docker image using  below line of code<br>
+``` docker build -t taxi_ingest:v001 .```
+
+3. We will define our simple data pipeline know as `ingest_data.py`. This will be executed inside the docker and is already used in our `Dockerfile`.
+
+4. Create a docker network `pg-network` so that Postgres and PGAdmin can interact.<br>
+``` docker network create pg-network ```
+
+5. Create docker volume for Postgres and PGAdmin so that data can be preserved on local disk otherwise once the docker container is down all data will be lost.<br>
+```
+docker volume create  --name ny_taxi_postgres_data -d local
+docker volume create  --name data_pgadmin -d local
+``` 
 
 ### 🏁 Docker, Terraform and  SQL 
 
